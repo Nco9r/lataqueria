@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="119.687" height="119.685" viewBox="0 0 119.687 119.685">
+  <defs>
+    <filter id="Tracé_6456" x="0" y="0" width="119.687" height="119.685" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Groupe_585" data-name="Groupe 585" transform="translate(15 5)">
+    <g id="forme-detoile-avec-cercle-de-fleches-circulaires" transform="translate(0)">
+      <g transform="matrix(1, 0, 0, 1, -15, -5)" filter="url(#Tracé_6456)">
+        <path id="Tracé_6456-2" data-name="Tracé 6456" d="M14.02,76.186l19.8-5.306L44.68,89.69,55.166,71.527l20.826,5.581L70.605,57,89.687,45.987,71.4,35.428l5.745-21.444-20.56,5.51L45.331.005,34.116,19.432,13.789,13.986l5.428,20.257L0,45.335,19.3,56.478ZM58.3,69.514l-2.217-4.925A21.919,21.919,0,0,1,29.527,61.2l2.133-2.139c.3.3.627.577.947.856a18.836,18.836,0,0,0,21.161,2.5L49.3,60.236a41.059,41.059,0,0,0,12.841-3.45A41.005,41.005,0,0,0,58.3,69.514Zm6.066-43.1-4.443,3.717A20.521,20.521,0,0,1,66.94,46.357H63.919a21.187,21.187,0,0,0-.248-3.084A18.559,18.559,0,0,0,58.7,32.968l-.518,2.847-.322,1.769a34.327,34.327,0,0,0-3.848-7.436,48.411,48.411,0,0,0-2.941-4A41.016,41.016,0,0,0,64.365,26.412ZM18.385,39.577l5.138,1.646A21.827,21.827,0,0,1,35.937,25.685l1.251,2.749A19.429,19.429,0,0,0,26.7,40.961l4.07-1.645L31.3,39.1c-.43.532-.85,1.134-1.264,1.761a45.187,45.187,0,0,0-4.767,10.088A41.011,41.011,0,0,0,18.385,39.577Z" transform="translate(15 4.99)" fill="#f8e813"/>
+      </g>
+    </g>
+    <ellipse id="Ellipse_154" data-name="Ellipse 154" cx="27.829" cy="26.045" rx="27.829" ry="26.045" transform="translate(17.068 19.979)" fill="#f8e813"/>
+    <rect id="Rectangle_85" data-name="Rectangle 85" width="5.708" height="4.995" transform="translate(62.022 24.261)" fill="#f8e813"/>
+    <rect id="Rectangle_86" data-name="Rectangle 86" width="2.854" height="1.427" transform="translate(57.741 68.501)" fill="#f8e813"/>
+  </g>
+</svg>
