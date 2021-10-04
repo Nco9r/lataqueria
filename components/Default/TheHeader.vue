@@ -80,7 +80,7 @@ export default {
 }
 
 .logo_header {
-  z-index: 2;
+  z-index: 3;
 
 }
 
