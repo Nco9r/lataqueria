@@ -127,6 +127,8 @@ form {
   border: 1px solid var(--gray);
   padding: 16px 24px;
   outline: none;
+  -webkit-appearance: none;
+  border-radius: 0;
   width: 100%;
 }
 
@@ -136,6 +138,7 @@ form {
   outline: none;
   -webkit-appearance: none;
   border: none;
+  border-radius: 0;
   color: var(--white);
   font-weight: bold;
   background-image: url('~assets/img/svg/select.svg');
@@ -149,6 +152,8 @@ form {
   padding: 16px 24px;
   outline: none;
   width: 100%;
+   -webkit-appearance: none;
+  border-radius: 0;
 }
 
 .input textarea::placeholder {
