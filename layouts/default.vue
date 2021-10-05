@@ -54,6 +54,8 @@ html {
   --orange: #EA6527;
   --bleu: #233F93;
   --white: #FFF;
+  --gray: #D9D9D9;
+  --semi-gray: rgb(82, 82, 82);
   --input: rgba(247, 247, 247, 0.20);
 }
 
@@ -94,6 +96,14 @@ input {
   src: url('~assets/fonts/ColabLig.ttf');
 }
 
+@media screen and (min-width: 1024px) {
+  html {
+    background-image: url('assets/img/svg/bck.svg');
+  background-repeat: repeat;
+  background-size: 100%;
+  background-color: var(--bleu);
+  }
+}
 
 
 

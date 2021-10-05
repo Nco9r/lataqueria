@@ -64,10 +64,8 @@ footer {
 .items_footer {
   display: flex;
   padding: 20px;
+  margin-top: 30px;
   flex-flow: column;
-}
-
-.item_logo {
 }
 
 .item_logo img {
@@ -84,7 +82,7 @@ footer {
 .item_footer {
   display: flex;
   justify-content: space-between;
-  margin-top: 40px;
+  margin-top: 50px;
   flex-flow: row wrap;
 }
 
@@ -129,5 +127,26 @@ footer {
 
 .frise img {
     width: 210%;
+}
+
+@media screen and (min-width: 1440px) {
+    footer {
+        max-width: 1300px; 
+        margin: auto;
+    }
+    .items_footer {
+        display: flex; 
+        ;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+
+    .item_footer {
+        width: 50%;
+    }
+
+    .item {
+        width: 25%;
+    }
 }
 </style>
