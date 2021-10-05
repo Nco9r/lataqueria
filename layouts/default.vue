@@ -2,16 +2,19 @@
   <div>
     <the-header/>
     <nuxt/>
+    <the-footer/>
   </div>
 </template>
 
 <script>
 
 import TheHeader from '../components/Default/TheHeader.vue'
+import TheFooter from '../components/Default/TheFooter.vue'
 
 export default {
   components: {
-    TheHeader
+    TheHeader,
+    TheFooter
   }
 }
 </script>
@@ -56,7 +59,6 @@ html {
 
 h1, h2, h3, h4, h5 {
   font-family: Barbaro, 'Times New Roman', Times, serif;
-  letter-spacing: .5px;
 }
 
 p {

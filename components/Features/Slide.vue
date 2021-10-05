@@ -14,6 +14,9 @@
         <img src="~assets/img/png/quesadillas.jpg" alt="">
         <h3>quesadillas</h3>
     </div>
+    <div class="btn_slide">
+      <button>Voir la Carte</button>
+    </div>
   </section>
 </template>
 
@@ -27,7 +30,8 @@ export default {}
   background-image: url('assets/img/svg/bck.svg');
   background-repeat: repeat;
   background-size: 250%;
-  overflow-x: hidden;
+  overflow: hidden;
+  position: relative;
 }
 
 
@@ -35,7 +39,6 @@ export default {}
 .img_welcome img {
   width: 200px;
   margin-top: -50px;
-  z-index: 10;
 }
 
 .title_slide {
@@ -83,5 +86,27 @@ export default {}
   color: var(--black);
   margin-top: 10px;
   font-size: 26px;
+}
+
+.btn_slide {
+  text-align: center;
+  margin: 30px 0 50px 0;
+}
+
+.btn_slide button{
+    border: none;
+  padding: 16px 58px;
+  background-color: var(--orange);
+  color: var(--white);
+  font-size: 16px;
+  position: relative;
+}
+
+.pic img {
+  position: absolute; 
+  left: -50px; 
+  transform: rotate(180deg);
+  bottom: -10px;
+  z-index: 4;
 }
 </style>
