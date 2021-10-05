@@ -16,7 +16,7 @@
       </div>
       <div class="item_infos">
         <div class="img">
-          <img src="~assets/img/svg/clock.svg" alt="" />
+          <img src="~assets/img/svg/phone.svg" alt="" />
         </div>
         <div class="content">
           <h2>Téléphone</h2>

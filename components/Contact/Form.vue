@@ -68,7 +68,7 @@
           </p>
         </div>
         <div class="btn_form">
-            <button>Soumettre votre demande</button>
+          <button>Soumettre votre demande</button>
         </div>
       </div>
     </form>
@@ -125,8 +125,10 @@ form {
 
 .input input {
   border: 1px solid var(--gray);
-  padding: 16px 24px;
+  padding: 18px 24px;
   outline: none;
+  color: var(--black);
+  font-size: 16px;
   -webkit-appearance: none;
   border-radius: 0;
   width: 100%;
@@ -134,8 +136,9 @@ form {
 
 .input select {
   background-color: var(--orange);
-  padding: 16px 24px;
+  padding: 18px 24px;
   outline: none;
+  font-size: 16px;
   -webkit-appearance: none;
   border: none;
   border-radius: 0;
@@ -149,10 +152,13 @@ form {
 
 .input textarea {
   border: 1px solid var(--gray);
-  padding: 16px 24px;
+  padding: 18px 24px;
   outline: none;
+  font-size: 16px;
   width: 100%;
-   -webkit-appearance: none;
+  color: var(--black);
+
+  -webkit-appearance: none;
   border-radius: 0;
 }
 
@@ -205,13 +211,13 @@ input[type='checkbox' i]:checked::after {
 }
 
 .btn_form {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
-.btn_form button{
-    border: none;
-padding: 16px; 
-width: 100%;
+.btn_form button {
+  border: none;
+  padding: 16px;
+  width: 100%;
   background-color: var(--orange);
   color: var(--white);
   font-size: 16px;

@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'lataqueria',
+    title: 'Mexican street Food | La Taqueria',
     htmlAttrs: {
       lang: 'en'
     },
