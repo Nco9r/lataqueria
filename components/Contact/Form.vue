@@ -59,7 +59,7 @@
           </div>
         </div>
         <div class="label_check">
-          <input type="checkbox" required />
+          <input type="checkbox" required checked />
           <p>
             En complétant ce formulaire vous consentez à ce que La Taqueria
             traite vos données personnelles. Pour en savoir plus sur la gestion
@@ -143,7 +143,7 @@ form {
   background-color: var(--orange);
   padding: 18px 24px;
   outline: none;
-  font-size: 16px;
+  font-size: 14px;
   -webkit-appearance: none;
   border: none;
   border-radius: 0;
@@ -198,7 +198,7 @@ input[type='checkbox' i] {
 }
 
 input[type='checkbox' i]:checked {
-  background-color: var(--orange) !important;
+  background-color: var(--black) !important;
   width: 90px;
   height: 25px;
   -webkit-appearance: none;
@@ -209,10 +209,10 @@ input[type='checkbox' i]:checked {
 input[type='checkbox' i]:checked::after {
   content: 'x';
   font-size: 16px;
-  color: white;
+  color: var(--orange);
   font-weight: bold;
+  margin: 2px auto;
   display: flex;
-  margin: auto;
 }
 
 .btn_form {
