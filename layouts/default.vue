@@ -73,7 +73,7 @@ button {
 
 }
 
-input {
+input, textarea {
   font-family: ColabLig;
 }
 

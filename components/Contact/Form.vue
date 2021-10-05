@@ -105,6 +105,11 @@ export default {}
 
 form {
   padding: 120px 20px 50px 20px;
+  background-image: url('assets/img/svg/head.svg');
+  background-size: 220%;
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+
 }
 
 .label_form {

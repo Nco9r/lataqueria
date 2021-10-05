@@ -1,8 +1,5 @@
 <template>
   <footer>
-    <div class="pic">
-      <img src="~assets/img/svg/pic.svg" alt="" />
-    </div>
     <div class="items_footer">
       <div class="item_logo">
         <img src="~assets/img/svg/Logo_taqueria.svg" alt="" />
@@ -55,11 +52,6 @@ footer {
   overflow: hidden;
 }
 
-.pic {
-  margin-top: -10px;
-  margin-right: -53px;
-  transform: rotate(180deg);
-}
 
 .items_footer {
   display: flex;
