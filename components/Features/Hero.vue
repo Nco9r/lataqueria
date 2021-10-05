@@ -47,6 +47,7 @@ export default {}
 .title_content h1 {
     font-size: 48px;
     line-height: 52px;
+    padding-right: 30px;
     font-weight: 500;
     position: relative;
 }

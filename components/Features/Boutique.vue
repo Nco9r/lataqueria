@@ -86,6 +86,10 @@
       <div class="btn_store">
         <button>Boutique</button>
       </div>
+      <div class="pic">
+      <img src="~assets/img/svg/pic.svg" alt="" />
+    </div>
+
     </div>
   </section>
 </template>
@@ -97,6 +101,9 @@ export default {}
 <style scoped>
 .boutique {
   margin-top: 30px;
+  position: relative;
+  overflow: hidden;
+
 }
 .top_img {
   width: 100%;
@@ -252,5 +259,15 @@ export default {}
   color: var(--black);
   font-size: 16px;
   position: relative;
+}
+
+.pic {
+  overflow-x: hidden;
+}
+
+.pic img {
+   position: absolute;
+  left: -50px;
+  bottom: -10px;
 }
 </style>
