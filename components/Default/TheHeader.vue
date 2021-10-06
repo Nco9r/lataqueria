@@ -24,11 +24,11 @@
     </div>
     <transition name="openMenu" appear>
       <div class="open_header" v-if="open">
-        <div class="item_header" @click="onToggle">
+        <div class="item_header">
           <nuxt-link to="/">Accueil</nuxt-link>
-          <nuxt-link to="/">Menu</nuxt-link>
+          <nuxt-link to="/menu">Menu</nuxt-link>
           <nuxt-link to="/">Boutique</nuxt-link>
-          <nuxt-link to="/contact" @click="onToggle"><button>Contact</button></nuxt-link>
+          <button>Contact</button>
         </div>
         <div class="item_sociaux">
           <img src="~assets/img/svg/fb.svg" alt="" />
@@ -50,7 +50,7 @@ export default {
     return {
       open: false,
       buttonType: 'spin',
-      isActive: true,
+      isActive: false,
       size: 's',
       color: 'white',
       activeColor: '#EA6527',

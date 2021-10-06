@@ -5,6 +5,9 @@
     <Concept/>
     <Boutique/>
     <Slide/>
+    <!-- <div class="button" @click="scrollTop">
+      <p>Top</p>
+    </div> -->
   </main>
 </template>
 
@@ -22,9 +25,32 @@ export default {
     Boutique,
     Slide
   },
+  methods: {
+    scrollTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      })
+    }
+  }
 }
 </script>
 
 <style>
+
+.button {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: var(--orange);
+  width: 50px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border-radius: 50%;
+  z-index: 1;
+}
 
 </style>
