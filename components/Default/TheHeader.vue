@@ -24,19 +24,21 @@
     </div>
     <transition name="openMenu" appear>
       <div class="open_header" v-if="open">
-        <div class="item_header">
-          <nuxt-link to="/">Accueil</nuxt-link>
-          <nuxt-link to="/menu">Menu</nuxt-link>
-          <nuxt-link to="/">Boutique</nuxt-link>
-          <button>Contact</button>
+        <div class="item_header" @click="onToggle">
+          <nuxt-link to="/" @click="onToggle">Accueil</nuxt-link>
+          <nuxt-link to="/menu" @click="onToggle">Menu</nuxt-link>
+          <nuxt-link to="/" @click="onToggle">Boutique</nuxt-link>
+          <nuxt-link to="/contact" @click="onToggle">
+            <button>Contact</button>
+          </nuxt-link>
         </div>
         <div class="item_sociaux">
           <img src="~assets/img/svg/fb.svg" alt="" />
           <img src="~assets/img/svg/in.svg" alt="" />
           <img src="~assets/img/svg/instagram.svg" alt="" />
-           <p>
-            ©2021 <span class="font">La taqueria</span> - Charte graphique Noémie Pullido - Développement
-            Nicolas ROUX
+          <p>
+            ©2021 <span class="font">La taqueria</span> - Charte graphique
+            Noémie Pullido - Développement Nicolas ROUX
           </p>
         </div>
       </div>
@@ -81,7 +83,6 @@ export default {
 
 .logo_header {
   z-index: 3;
-
 }
 
 .logo_header img {
@@ -203,16 +204,13 @@ export default {
   margin-right: 20px;
 }
 
-
 .item_sociaux p {
-    margin-top: 10px;
-    font-size: 14px;
-    line-height: 20px;
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .font {
-    font-family: Barbaro, 'Times New Roman', Times, serif;
+  font-family: Barbaro, 'Times New Roman', Times, serif;
 }
-
-
 </style>

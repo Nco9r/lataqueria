@@ -21,7 +21,7 @@ export default {
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [{ src: '~/plugins/hamburger.js', mode: 'client' }, { src: '~/plugins/slide.js', mode: 'client' }],
+  plugins: [{ src: '~/plugins/hamburger.js', mode: 'client' }, { src: '~/plugins/slide.js', mode: 'client' }, { src: '~/plugins/Lottie.js', mode: 'client' }],
 
 
   // Auto import components: https://go.nuxtjs.dev/config-components

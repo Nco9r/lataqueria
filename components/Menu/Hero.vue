@@ -3,24 +3,25 @@
     <div class="block_top">
       <div class="hero_content">
         <div class="title_content">
-          <h1>Contactez nous avec plaisir</h1>
+          <h1>DECOUVREz NOTRE CARTE</h1>
           <img src="~assets/img/svg/sun.svg" alt="" />
         </div>
       </div>
       <div class="description">
         <p>
-          Vous souhaitez en savoir plus sur nos produits, notre restaurant ou
-          vous souhaitez juste dire bonjour ? N’hésitez pas à remplir le
-          formulaire ci dessous, nous vous répondrons dans les plus brefs
-          délais.
+          La Taqueria est un corner de restauration convivial proposant de la
+          street food mexicaine de qualité, dans le respect des recettes
+          traditionnelles et 100% fait maison.
         </p>
         <nuxt-link to="/">La carte</nuxt-link>
       </div>
     </div>
     <div class="block_bottom">
       <div class="img_hero">
-        <img src="~assets/img/png/ambiance.jpg" alt="" />
+        <img src="~assets/img/png/ambiance_2.jpg" alt="" />
         <img class="sweet" src="~assets/img/svg/sweet_2.svg" alt="" />
+        <img class="sweet" src="~assets/img/svg/sun_2.svg" alt="" />
+        <img class="sweet" src="~assets/img/svg/sun_2.svg" alt="" />
       </div>
     </div>
   </section>
@@ -95,5 +96,21 @@ export default {}
   right: -10px;
   width: 150px;
   height: 100px;
+}
+
+.img_hero img:nth-child(3) {
+  width: 50px;
+  position: absolute;
+  bottom: -30px;
+  transform: rotate(334deg);
+  left: -10px;
+}
+
+.img_hero img:nth-child(4) {
+  width: 50px;
+  position: absolute;
+  transform: rotate(277deg);
+  bottom: -30px;
+  right: -10px;
 }
 </style>

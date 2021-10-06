@@ -7,6 +7,13 @@
       <img src="~assets/img/svg/sun.svg" alt="" />
       <h2>Mexican street food to BORDEAUX</h2>
     </div>
+    <lottie path="~assets/Lottie/tacos.json"   :loop="false"
+    :autoPlay="true"
+    :loopDelayMin="2.5"
+    :loopDelayMax="5"
+    :speed="1"
+    :width="256"
+    :height="256"/>
     <div class="slide_mobile">
       <img src="~assets/img/svg/tequila.svg" alt="" />
     </div>
@@ -20,35 +27,35 @@
           <img src="~assets/img/png/BF.jpg" alt="" />
           <h3>Burrito Frites</h3>
         </div>
-         <div class="slide_box">
+        <div class="slide_box">
           <img src="~assets/img/png/Tacos.jpg" alt="" />
           <h3>Tacos</h3>
         </div>
-         <div class="slide_box">
+        <div class="slide_box">
           <img src="~assets/img/png/Tacos_2.jpg" alt="" />
           <h3>Tacos</h3>
         </div>
-         <div class="slide_box">
+        <div class="slide_box">
           <img src="~assets/img/png/nachos.jpg" alt="" />
           <h3>Nachos</h3>
         </div>
-         <div class="slide_box">
+        <div class="slide_box">
           <img src="~assets/img/png/BOWL.jpg" alt="" />
           <h3>Bowl Mex Frites</h3>
         </div>
-         <div class="slide_box">
+        <div class="slide_box">
           <img src="~assets/img/png/Salade.jpg" alt="" />
           <h3>Salade Mex</h3>
         </div>
       </vue-tiny-slider>
     </client-only>
     <div class="slide_nav">
-        <button class="slidePrev" id="prev">
-            <img src="@/assets/img/svg/slide_arrow.svg" alt="" />
-        </button>
-         <button class="slideNext" id="next">
-            <img src="@/assets/img/svg/slide_arrow.svg" alt="" />
-        </button>
+      <button class="slidePrev" id="prev">
+        <img src="@/assets/img/svg/slide_arrow.svg" alt="" />
+      </button>
+      <button class="slideNext" id="next">
+        <img src="@/assets/img/svg/slide_arrow.svg" alt="" />
+      </button>
     </div>
     <div class="btn_slide">
       <button>Voir la Carte</button>
@@ -57,6 +64,8 @@
 </template>
 
 <script>
+
+
 export default {
   data() {
     return {
@@ -126,18 +135,17 @@ export default {
 
 .slide_tiny {
   display: block;
- ;
 }
 
-.tns-carousel{
-    display: flex;
+.tns-carousel {
+  display: flex;
   flex-flow: row nowrap;
   justify-content: center;
 }
 
 .tns-item {
-    margin-right: 20px;
-    margin-top: -10px;
+  margin-right: 20px;
+  margin-top: -10px;
 }
 
 .slide_box {
@@ -162,21 +170,25 @@ export default {
 }
 
 .slide_nav {
-    display: flex;
-    justify-content: center;
-    margin-top: -10px;
+  display: flex;
+  justify-content: center;
+  margin-top: -10px;
 }
 
 .slide_nav button {
-    border: none;
-    background-color: transparent;
+  border: none;
+  background-color: transparent;
+}
+
+.slide_nav button img {
+  width: 45px;
 }
 
 .slide_nav button:nth-child(1) {
-    transform: rotate(180deg);
-    margin-top: -6px;
-    margin-right: 20px;
-    pointer-events: all;
+  transform: rotate(180deg);
+  margin-top: -6px;
+  margin-right: 10px;
+  pointer-events: all;
 }
 
 .btn_slide {
