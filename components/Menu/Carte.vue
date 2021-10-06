@@ -355,7 +355,7 @@ export default {
 
 .items_menu h2 {
   font-size: 28px;
-  -webkit-text-stroke: 0.1px var(--orange);
+  -webkit-text-stroke: 1px var(--orange);
   color: transparent;
 }
 
