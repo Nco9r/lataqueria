@@ -1,6 +1,7 @@
  <template>
   <div>
     <the-header/>
+    <cookies/>
     <nuxt/>
     <the-footer/>
   </div>
@@ -10,11 +11,13 @@
 
 import TheHeader from '../components/Default/TheHeader.vue'
 import TheFooter from '../components/Default/TheFooter.vue'
+import Cookies from '../components/Default/Cookies.vue'
 
 export default {
   components: {
     TheHeader,
-    TheFooter
+    TheFooter,
+    Cookies
   }
 }
 </script>

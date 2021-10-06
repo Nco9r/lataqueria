@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="63.193" height="63.652" viewBox="0 0 63.193 63.652">
+  <g id="Groupe_593" data-name="Groupe 593" transform="translate(-821.114 -1030)">
+    <g id="icons_cookies" data-name="icons/cookies" transform="translate(821.114 1030)">
+      <path id="Shape" d="M9.255,53.921A31.573,31.573,0,0,1,30.554,0c-.031.335-.046.67-.046,1.013a11.359,11.359,0,0,0,5,9.413l1.321.895-.378,1.551a11.361,11.361,0,0,0,14.441,13.54l1.212-.382.967.825a11.364,11.364,0,0,0,10.037,2.4q.082,1.134.083,2.321t-.085,2.355A31.6,31.6,0,0,1,9.255,53.921Z" transform="translate(0 0.477)" fill="#ea6527"/>
+      <circle id="Oval" cx="3.785" cy="3.785" r="3.785" transform="translate(9.979 26.722)" fill="#ea6527"/>
+      <circle id="Oval-2" data-name="Oval" cx="4.014" cy="4.014" r="4.014" transform="translate(24.2 30.736)" fill="#ea6527"/>
+      <circle id="Oval-3" data-name="Oval" cx="5.276" cy="5.276" r="5.276" transform="translate(38.536 35.209)" fill="#ea6527"/>
+      <circle id="Oval-4" data-name="Oval" cx="2.294" cy="2.294" r="2.294" transform="translate(22.938 46.563)" fill="#ea6527"/>
+      <circle id="Oval-5" data-name="Oval" cx="2.064" cy="2.064" r="2.064" transform="translate(20.874 15.827)" fill="#ea6527"/>
+      <circle id="Oval-6" data-name="Oval" cx="3.097" cy="3.097" r="3.097" transform="translate(46.449 13.074)" fill="#ea6527"/>
+      <circle id="Oval-7" data-name="Oval" cx="4.014" cy="4.014" r="4.014" transform="translate(43.009)" fill="#ea6527"/>
+      <circle id="Oval-8" data-name="Oval" cx="1.835" cy="1.835" r="1.835" transform="translate(58.95 19.497)" fill="#ea6527"/>
+    </g>
+    <path id="Tracé_10786" data-name="Tracé 10786" d="M200.18,192.837c-1.4-.618-2.668.472-2.21,1.606.318-1.615,2.856-.567,1.918,1.417-.966,2.046-3.5,2.093-6.18.438-2.155-1.332-4.439-4.537-8.821-4.537a4.97,4.97,0,0,0-4.6,2.4,4.971,4.971,0,0,0-4.6-2.4c-4.383,0-6.667,3.205-8.822,4.537-2.676,1.655-5.213,1.608-6.179-.438-.938-1.985,1.6-3.032,1.918-1.417.458-1.134-.807-2.224-2.21-1.606-1.609.708-2.15,3.328-.8,5.424,2.715,4.21,9.379,2.36,12.262,1.427,4.82-1.56,5.909-2.663,8.433-2.906,2.524.242,3.613,1.346,8.433,2.906,2.883.933,9.547,2.784,12.262-1.427C202.331,196.165,201.789,193.545,200.18,192.837Z" transform="translate(615.795 961.278) rotate(-22)" fill="#303030"/>
+  </g>
+</svg>

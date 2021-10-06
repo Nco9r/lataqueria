@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="63.193" height="63.652" viewBox="0 0 63.193 63.652">
+  <g id="Groupe_593" data-name="Groupe 593" transform="translate(-821.114 -1030)">
+    <g id="icons_cookies" data-name="icons/cookies" transform="translate(821.114 1030)">
+      <path id="Shape" d="M9.255,53.921A31.573,31.573,0,0,1,30.554,0c-.031.335-.046.67-.046,1.013a11.359,11.359,0,0,0,5,9.413l1.321.895-.378,1.551a11.361,11.361,0,0,0,14.441,13.54l1.212-.382.967.825a11.364,11.364,0,0,0,10.037,2.4q.082,1.134.083,2.321t-.085,2.355A31.6,31.6,0,0,1,9.255,53.921Z" transform="translate(0 0.477)" fill="#ea6527"/>
+      <circle id="Oval" cx="3.785" cy="3.785" r="3.785" transform="translate(9.979 26.722)" fill="#ea6527"/>
+      <circle id="Oval-2" data-name="Oval" cx="4.014" cy="4.014" r="4.014" transform="translate(24.2 30.736)" fill="#ea6527"/>
+      <circle id="Oval-3" data-name="Oval" cx="5.276" cy="5.276" r="5.276" transform="translate(38.536 35.209)" fill="#ea6527"/>
+      <circle id="Oval-4" data-name="Oval" cx="2.294" cy="2.294" r="2.294" transform="translate(22.938 46.563)" fill="#ea6527"/>
+      <circle id="Oval-5" data-name="Oval" cx="2.064" cy="2.064" r="2.064" transform="translate(20.874 15.827)" fill="#ea6527"/>
+      <circle id="Oval-6" data-name="Oval" cx="3.097" cy="3.097" r="3.097" transform="translate(46.449 13.074)" fill="#ea6527"/>
+      <circle id="Oval-7" data-name="Oval" cx="4.014" cy="4.014" r="4.014" transform="translate(43.009)" fill="#ea6527"/>
+      <circle id="Oval-8" data-name="Oval" cx="1.835" cy="1.835" r="1.835" transform="translate(58.95 19.497)" fill="#ea6527"/>
+    </g>
+    <path id="Tracé_10786" data-name="Tracé 10786" d="M192.422,192.635c-1.14-.5-2.168.384-1.8,1.3.258-1.312,2.32-.461,1.559,1.151-.785,1.662-2.846,1.7-5.02.356-1.751-1.082-3.606-3.686-7.167-3.686a4.038,4.038,0,0,0-3.739,1.952,4.038,4.038,0,0,0-3.739-1.952c-3.561,0-5.416,2.6-7.167,3.686-2.174,1.345-4.235,1.306-5.02-.356-.762-1.612,1.3-2.464,1.559-1.151.372-.921-.655-1.807-1.8-1.3-1.307.576-1.747,2.7-.65,4.407,2.205,3.421,7.62,1.917,9.962,1.159,3.916-1.267,4.8-2.164,6.851-2.361,2.051.2,2.935,1.093,6.851,2.361,2.342.758,7.756,2.261,9.962-1.159C194.169,195.339,193.729,193.211,192.422,192.635Z" transform="matrix(0.94, -0.342, 0.342, 0.94, 624.603, 952.68)" fill="#fff"/>
+  </g>
+</svg>
