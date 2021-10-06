@@ -29,11 +29,11 @@
       </div>
       <div class="item_infos">
         <div class="img">
-          <img src="~assets/img/svg/delivreoo.svg" alt="" />
+          <img src="~assets/img/svg/food_court.svg" alt="" />
         </div>
         <div class="content">
-          <h2>livraison</h2>
-          <p>Faites vous livrer</p>
+          <h2>Boca Food Court</h2>
+          <p>Quai de Paludate, BORDEAUX</p>
         </div>
       </div>
     </div>

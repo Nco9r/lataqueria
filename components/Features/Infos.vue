@@ -7,7 +7,7 @@
         </div>
         <div class="content">
           <h2>Boca food court</h2>
-          <p>33000, BORDEAUX</p>
+          <p>Quai de Paludate, BORDEAUX</p>
         </div>
         <div class="span">
           <hr />
