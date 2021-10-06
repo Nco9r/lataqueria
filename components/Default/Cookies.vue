@@ -5,7 +5,7 @@
         <img src="~assets/img/svg/cookie.svg" alt="" />
         <p>
           Nous utilisons des cookies tiers pour personnaliser le contenu, les
-          publicités et analyser le trafic du site. <strong><nuxt-link to="/"> savoir plus</nuxt-link></strong>
+          publicités et analyser le trafic du site. <span class="bold"><nuxt-link to="/"> savoir plus</nuxt-link></span>
         </p>
         <button @click="valide">Accepter</button>
       </div>
@@ -40,6 +40,10 @@ export default {
 a {
     font-size: 14px;
     color: var(--black);
+}
+
+.bold {
+    font-family: ColabMed, sans-serif;
 }
 
 .cookies {

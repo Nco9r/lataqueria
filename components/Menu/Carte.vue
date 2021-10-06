@@ -107,6 +107,16 @@
           </p>
         </div>
       </div>
+       <div class="items_carte">
+        <div class="infos_items">
+          <h4>Garnitures au choix</h4>
+        </div>
+        <div class="decriptif">
+          <p>
+            Boeuf haché à la Mex - Galette Végétarienne - Poulet grillé mariné Mangue - Cochon grillé mariné Ananas.
+          </p>
+        </div>
+      </div>
         <div class="items_carte">
         <div class="infos_items">
           <h4>Dessert du jour</h4>
@@ -394,7 +404,7 @@ export default {
 
 .infos_items h5 {
   color: var(--black);
-  font-size: 18px;
+  font-size: 22px;
 }
 .infos_items span {
   /* background-color: var(--black); */
@@ -404,15 +414,15 @@ export default {
 }
 .infos_items h4 {
   color: var(--black);
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .decriptif p {
   color: var(--orange);
-  margin-top: 5px;
+  margin-top: 2px;
   font-family: ColabMed, sans-serif;
   line-height: 20px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .price {
