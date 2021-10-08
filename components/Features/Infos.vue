@@ -114,11 +114,18 @@ export default {}
   margin: 0px auto 60px auto;
 }
 
+
+  .span_desktop {
+    display: none;
+  }
+
 @media screen and (min-width: 1024px) {
   .infos {
     max-width: 1000px;
     margin: 50px auto;
   }
+
+  
 
   .items {
     text-align: center;

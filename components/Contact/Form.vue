@@ -45,7 +45,7 @@
             </select>
           </div>
         </div>
-        <div class="label_form">
+        <div class="label_form area">
           <div class="label">
             <h2>Votre Message</h2>
           </div>
@@ -83,8 +83,9 @@ export default {}
 .form {
   background-color: var(--white);
   background-image: url('assets/img/svg/bck.svg');
+  
   background-repeat: repeat;
-  background-size: 250%;
+  background-size: 100%;
   position: relative;
 }
 
@@ -228,4 +229,71 @@ input[type='checkbox' i]:checked::after {
   font-size: 16px;
   position: relative;
 }
+
+@media screen and (min-width: 1024px) {
+  .form {
+    max-width: 900px;
+    margin: 50px auto;
+  }
+
+  .sun img:nth-child(1) {
+  width: 60px;
+  position: absolute;
+  top: -53px;
+  transform: rotate(90deg);
+  left: -47px;
+}
+
+.sun img:nth-child(2) {
+  width: 60px;
+  position: absolute;
+  top: -53px;
+  right: -47px;
+  transform: rotate(170deg);
+}
+
+form {
+    background-size: 70%;
+    margin-bottom: 100px;
+
+  
+}
+
+.form_group {
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.label_form {
+  width: 48%;
+}
+
+.area {
+  width: 100%!important;
+} 
+
+.btn_form button{
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+}
+
+@media screen and (min-width: 1200px) {
+  .form {
+    max-width: 1000px;
+    margin: 50px auto;
+  }
+  }
+
+  @media screen and (min-width: 1440px) {
+  .form {
+    max-width: 1200px;
+    margin: 50px auto;
+  }
+  }
 </style>

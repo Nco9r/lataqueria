@@ -272,9 +272,6 @@ export default {}
 }
 
 @media screen and (min-width: 1024px) {
-  .boutique {
-
-}
 
 .top_img {
   width: 100%;

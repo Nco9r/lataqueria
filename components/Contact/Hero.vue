@@ -96,4 +96,117 @@ export default {}
   width: 150px;
   height: 100px;
 }
+
+@media screen and (min-width: 1024px) {
+.hero {
+  max-width: 1000px;
+  margin: 180px auto 30px auto;
+}
+
+  .block_top {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  .hero_content {
+    width: 49%;
+  }
+
+  
+
+  .title_content h1 {
+  font-size: 70px;
+  line-height: 75px;
+  padding-right: 30px;
+  font-weight: 500;
+  position: relative;
+}
+
+.title_content img {
+  position: absolute;
+  top: -70px;
+  right: 20px;
+  width: 130px;
+}
+
+  .description {
+    width: 49%;
+  }
+
+  .description p {
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.img_hero img:nth-child(2) {
+  position: absolute;
+  top: -50px;
+  right: -10px;
+  width: 190px;
+  height: 140px;
+}
+}
+
+@media screen and (min-width: 1200px) {
+.hero {
+  max-width: 1200px;
+  margin: 170px auto 50px auto;
+}
+
+  .title_content h1 {
+  font-size: 80px;
+  line-height: 85px;
+  padding-right: 30px;
+  font-weight: 500;
+  position: relative;
+}
+
+
+.img_hero img:nth-child(1) {
+  height: 550px;
+  margin-top: 20px;
+}
+
+.title_content img {
+  position: absolute;
+  top: -80px;
+  right: 60px;
+  width: 170px;
+}
+
+.img_hero img:nth-child(2) {
+  position: absolute;
+  top: -50px;
+  right: -10px;
+  width: 260px;
+  height: 200px;
+}
+
+}
+
+@media screen and (min-width: 1440px) {
+.hero {
+  max-width: 1300px;
+  margin: 200px auto 50px auto;
+}
+
+  .title_content h1 {
+  font-size: 85px;
+  line-height: 90px;
+  padding-right: 30px;
+  font-weight: 500;
+  position: relative;
+}
+
+}
+
+@media screen and (min-width: 1600px) {
+.hero {
+  max-width: 1600px;
+  margin: 160px auto;
+}
+
+}
 </style>

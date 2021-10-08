@@ -8,6 +8,7 @@
     <Hero />
     <infos/>
     <Form/>
+    <livraison/>
   </main>
 </template>
 
@@ -15,11 +16,13 @@
 import Hero from '../components/Contact/Hero'
 import Infos from '../components/Contact/Infos'
 import Form from '../components/Contact/Form'
+import Livraison from '../components/Menu/Livraison.vue'
 export default {
   components: {
     Hero,
     Infos,
-    Form
+    Form,
+    Livraison
   },
 }
 </script>

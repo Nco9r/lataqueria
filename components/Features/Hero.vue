@@ -99,7 +99,7 @@ export default {}
 @media screen and (min-width: 1024px) {
 .hero {
   max-width: 1000px;
-  margin: 160px auto 30px auto;
+  margin: 180px auto 30px auto;
 }
 
   .block_top {
