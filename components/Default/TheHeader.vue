@@ -27,15 +27,15 @@
         <div class="item_header" @click="onToggle">
           <nuxt-link to="/" @click="onToggle">Accueil</nuxt-link>
           <nuxt-link to="/menu" @click="onToggle">Menu</nuxt-link>
-          <nuxt-link to="/" @click="onToggle">Boutique</nuxt-link>
+          <nuxt-link to="/boutique" @click="onToggle">Boutique</nuxt-link>
           <nuxt-link to="/contact" @click="onToggle">
             <button>Contact</button>
           </nuxt-link>
         </div>
         <div class="item_sociaux">
-          <img src="~assets/img/svg/fb.svg" alt="" />
-          <img src="~assets/img/svg/in.svg" alt="" />
-          <img src="~assets/img/svg/instagram.svg" alt="" />
+           <a href="https://www.facebook.com/lataqueriabordeaux/" target="_blank"><img src="~assets/img/svg/fb.svg" alt="" /></a>
+         <a href="https://fr.linkedin.com/company/la-boca-foodcourt" target="_blank"><img src="~assets/img/svg/in.svg" alt="" /></a>
+         <a href="https://www.instagram.com/lataqueriabordeaux/" target="_blank"><img src="~assets/img/svg/instagram.svg" alt="" /></a>
           <p>
             ©2021 <span class="font">La taqueria</span> - Charte graphique
             Noémie Pullido - Développement Nicolas ROUX
@@ -213,4 +213,5 @@ export default {
 .font {
   font-family: Barbaro, 'Times New Roman', Times, serif;
 }
+
 </style>

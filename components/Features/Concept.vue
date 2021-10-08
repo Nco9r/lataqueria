@@ -10,11 +10,20 @@
         <h2>Choisissez votre Formule.</h2>
       </div>
       <div class="content_concept">
-          <p>Comment ça marche ?</p>
-          <p>Choisissez le format de votre plat parmi : Maxi Burrito, Quesadillas, Tacos, Bowl Mexicain. <br> Puis choisissez votre garnitures dans les suggestions du moment. Effiloché de boeuf braisé à la bière. Effiloché de porc laqué à la mangue. Poulet mariné salsa verde. Crevettes grillés épices douces sauce Pipian. Végétarien.s</p>
+        <p>Comment ça marche ?</p>
+        <p>
+          Choisissez le format de votre plat parmi : Maxi Burrito, Quesadillas,
+          Tacos, Bowl Mexicain. <br />
+          Puis choisissez votre garnitures dans les suggestions du moment.
+          Effiloché de boeuf braisé à la bière. Effiloché de porc laqué à la
+          mangue. Poulet mariné salsa verde. Crevettes grillés épices douces
+          sauce Pipian. Végétarien.s
+        </p>
       </div>
       <div class="btn_concept">
+        <nuxt-link to="/menu">
           <button>La carte</button>
+        </nuxt-link>
       </div>
     </div>
   </section>
@@ -61,35 +70,98 @@ export default {}
 }
 
 .block_right .title_concept h2 {
-    margin-top: 30px;
-    font-size: 35px;
-    line-height: 43px;
-    font-weight: 500;
+  margin-top: 30px;
+  font-size: 35px;
+  line-height: 43px;
+  font-weight: 500;
 }
 
 .content_concept p:nth-child(1) {
-    font-family: ColabMed, sans-serif;
-    font-size: 18px;
-    margin-top: 20px;
-    margin-bottom: 10px;
+  font-family: ColabMed, sans-serif;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .content_concept p:nth-child(2) {
-    font-size: 16px;
-    line-height: 22px;
-    margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 20px;
 }
 
 br {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
-.btn_concept button{
-    border: none;
+.btn_concept button {
+  border: none;
   padding: 16px 58px;
   background-color: var(--orange);
   color: var(--white);
   font-size: 16px;
   position: relative;
+}
+
+@media screen and (min-width: 1024px) {
+  .concept {
+  max-width: 1000px;
+  background-size: 50%;
+
+  margin: 30px auto 100px auto;
+  display: flex;
+  flex-flow: row-reverse;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.block_right {
+  width: 45%;
+}
+
+.block_left {
+  width: 45%;
+}
+.block_right .title_concept h2 {
+  margin-top: 30px;
+  font-size: 48px;
+  line-height: 52px;
+
+}
+
+.content_concept p:nth-child(1) {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.content_concept p:nth-child(2) {
+  font-size: 20px;
+  line-height: 28px;
+}
+}
+
+@media screen and (min-width: 1200px) {
+  .concept {
+  max-width: 1150px;
+  background-size: 45%;
+
+  margin: 30px auto 100px auto;
+  display: flex;
+  flex-flow: row-reverse;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.block_right {
+  width: 45%;
+}
+
+.block_left {
+  width: 45%;
+}
+.block_right .title_concept h2 {
+  margin-top: 30px;
+  font-size: 48px;
+  line-height: 52px;
+}
+
+
 }
 </style>

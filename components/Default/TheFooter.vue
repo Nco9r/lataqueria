@@ -1,5 +1,6 @@
 <template>
   <footer>
+    <div class="box_footer">
     <div class="items_footer">
       <div class="item_logo">
         <img src="~assets/img/svg/Logo_taqueria.svg" alt="" />
@@ -25,14 +26,16 @@
         </div>
          <div class="item">
           <h3>Sociaux</h3>
-         <img src="~assets/img/svg/fb.svg" alt="" />
-          <img src="~assets/img/svg/in.svg" alt="" />
-          <img src="~assets/img/svg/instagram.svg" alt="" />
+          
+          <a href="https://www.facebook.com/lataqueriabordeaux/" target="_blank"><img src="~assets/img/svg/fb.svg" alt="" /></a>
+         <a href="https://fr.linkedin.com/company/la-boca-foodcourt" target="_blank"><img src="~assets/img/svg/in.svg" alt="" /></a>
+         <a href="https://www.instagram.com/lataqueriabordeaux/" target="_blank"><img src="~assets/img/svg/instagram.svg" alt="" /></a>
         </div>
       </div>
     </div>
     <div class="copyright">
         <p><span class="font">©2021 La taqueria</span>  - Charte graphique Noémie Pullido - Développement Nicolas ROUX</p>
+    </div>
     </div>
     <div class="frise">
         <img src="~assets/img/svg/frise.svg" alt="">
@@ -119,6 +122,27 @@ footer {
 
 .frise img {
     width: 210%;
+}
+
+@media screen and (min-width: 1024px) {
+    .items_footer {
+        display: flex; 
+        ;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+
+    .item_footer {
+        width: 50%;
+    }
+
+    .item {
+        width: 30%;
+    }
+
+    .frise img {
+    width: 100%;
+}
 }
 
 @media screen and (min-width: 1440px) {

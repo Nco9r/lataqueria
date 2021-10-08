@@ -58,7 +58,9 @@
       </button>
     </div>
     <div class="btn_slide">
-      <button>Voir la Carte</button>
+      <nuxt-link to="/menu">
+          <button>Voir la carte</button>
+        </nuxt-link>
     </div>
   </section>
 </template>
@@ -80,8 +82,14 @@ export default {
         prevButton: '#prev',
         nextButton: '#next',
         responsive: {
+          1024: {
+            items: 3,
+          },
           1200: {
-            items: 2,
+            items: 3,
+          },
+          1400: {
+            items: 4,
           },
         },
       },
@@ -211,5 +219,19 @@ export default {
   transform: rotate(180deg);
   bottom: -10px;
   z-index: 4;
+}
+
+@media screen and (min-width: 1024px) {
+
+  .slide {
+    background-size: 100%;
+  }
+  .title_slide h2 {
+  color: var(--bleu);
+  font-size: 55px;
+  line-height: 58px;
+
+  margin-top: -30px;
+}
 }
 </style>
