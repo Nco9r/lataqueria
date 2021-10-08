@@ -165,6 +165,7 @@ export default {}
 
 .img_hero img:nth-child(1) {
   height: 550px;
+  margin-top: 20px;
 }
 
 .title_content img {
@@ -187,7 +188,15 @@ export default {}
 @media screen and (min-width: 1440px) {
 .hero {
   max-width: 1300px;
-  margin: 160px auto;
+  margin: 200px auto 50px auto;
+}
+
+  .title_content h1 {
+  font-size: 85px;
+  line-height: 90px;
+  padding-right: 30px;
+  font-weight: 500;
+  position: relative;
 }
 
 }

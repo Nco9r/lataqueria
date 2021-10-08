@@ -193,4 +193,36 @@ export default {}
     font-size: 20px;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .infos {
+    max-width: 1300px;
+    margin: 20px auto;
+  }
+
+  .item_infos img {
+    height: 80px;
+  }
+
+  .items {
+    width: 90%;
+  }
+
+  .span_desktop hr:nth-child(1) {
+    height: 140px;
+  }
+
+  .span_desktop hr:nth-child(2) {
+    height: 140px;
+  }
+
+  .content h2 {
+    font-size: 26px;
+    margin-bottom: 5px;
+  }
+
+  .content p {
+    font-size: 20px;
+  }
+}
 </style>

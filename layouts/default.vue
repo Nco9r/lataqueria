@@ -81,6 +81,10 @@ input, textarea {
   font-family: ColabLig;
 }
 
+button:hover, a:hover {
+  cursor: url('~assets/img/svg/tacos_cursor.svg'), auto;
+}
+
 
 
 
@@ -104,7 +108,7 @@ input, textarea {
   html {
     background-image: url('assets/img/svg/bck.svg');
   background-repeat: repeat;
-  background-size: 100%;
+  background-size: 80%;
   background-color: var(--bleu);
   }
 }

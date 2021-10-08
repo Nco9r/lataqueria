@@ -164,4 +164,44 @@ br {
 
 
 }
+
+
+@media screen and (min-width: 1440px) {
+  .concept {
+  max-width: 1300px;
+  background-size: 40%;
+
+  margin: 30px auto 100px auto;
+  display: flex;
+  flex-flow: row-reverse;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.block_right {
+  width: 45%;
+}
+
+.block_left {
+  width: 45%;
+}
+
+.box {
+  width: 350px;
+  height: 400px;
+}
+
+
+.block_left img {
+  width: 85%;
+  height: 450px;
+  object-fit: cover;
+}
+.block_right .title_concept h2 {
+  margin-top: 30px;
+  font-size: 48px;
+  line-height: 52px;
+}
+
+
+}
 </style>
