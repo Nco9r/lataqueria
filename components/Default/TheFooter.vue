@@ -142,7 +142,35 @@ footer {
 
     .frise img {
     width: 100%;
+    margin-bottom: -80px;
 }
+}
+
+@media screen and (min-width: 1200px) {
+    footer {
+        max-width: 1150px; 
+        margin: auto;
+    }
+    .items_footer {
+        display: flex; 
+        ;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+
+    .item_footer {
+        width: 50%;
+    }
+
+
+    .frise img {
+    width: 100%;
+    margin-bottom: -120px;
+}
+
+    .item {
+        width: 25%;
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -160,6 +188,12 @@ footer {
     .item_footer {
         width: 50%;
     }
+
+
+    .frise img {
+    width: 100%;
+    margin-bottom: -80px;
+}
 
     .item {
         width: 25%;

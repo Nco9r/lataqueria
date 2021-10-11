@@ -114,4 +114,12 @@ margin-left: -20px;
   z-index: 1;
 }
 
+@media screen and (min-width: 1024px) {
+  .open {
+     background-image: url('assets/img/svg/bck.svg');
+  background-repeat: repeat;
+  background-size: 50%;
+  }
+}
+
 </style>

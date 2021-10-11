@@ -1,5 +1,5 @@
  <template>
-  <div>
+  <div> 
     <the-header/>
     <cookies/>
     <nuxt/>
@@ -12,12 +12,14 @@
 import TheHeader from '../components/Default/TheHeader.vue'
 import TheFooter from '../components/Default/TheFooter.vue'
 import Cookies from '../components/Default/Cookies.vue'
+import VueLerpElement from "vue-lerp-element";
 
 export default {
   components: {
     TheHeader,
     TheFooter,
-    Cookies
+    Cookies,
+    VueLerpElement,
   }
 }
 </script>
@@ -38,7 +40,7 @@ html {
   background-size: 250%;
   background-color: var(--bleu);
   color:var(--white);
-  cursor: url('~assets/img/svg/tacos_cursor.svg'), auto;
+  /* cursor: url('~assets/img/svg/tacos_cursor.svg'), auto; */
 
 }
 
@@ -81,9 +83,6 @@ input, textarea {
   font-family: ColabLig;
 }
 
-button:hover, a:hover {
-  cursor: url('~assets/img/svg/tacos_cursor.svg'), auto;
-}
 
 
 
@@ -103,6 +102,8 @@ button:hover, a:hover {
   font-family: ColabLig;
   src: url('~assets/fonts/ColabLig.ttf');
 }
+
+
 
 @media screen and (min-width: 1024px) {
   html {
