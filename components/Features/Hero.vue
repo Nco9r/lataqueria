@@ -151,7 +151,7 @@ export default {}
 @media screen and (min-width: 1200px) {
 .hero {
   max-width: 1200px;
-  margin: 170px auto 50px auto;
+  margin: 180px auto 50px auto;
 }
 
   .title_content h1 {
@@ -204,8 +204,18 @@ export default {}
 @media screen and (min-width: 1600px) {
 .hero {
   max-width: 1600px;
-  margin: 160px auto;
+  margin: 180px auto 50px auto;
 }
+
+
+.title_content img {
+  position: absolute;
+  top: -80px;
+  right: 0px;
+  width: 170px;
+}
+
+
 
 }
 </style>

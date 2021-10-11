@@ -83,4 +83,10 @@ export default {
   color: transparent;
 }
 
+@media screen and (min-width: 1024px) {
+  .products {
+    background-size: 75%;
+  }
+}
+
 </style>

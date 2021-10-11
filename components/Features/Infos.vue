@@ -232,4 +232,12 @@ export default {}
     font-size: 20px;
   }
 }
+
+@media screen and (min-width: 1600px) {
+  .infos {
+    max-width: 1500px;
+    margin: 20px auto 50px auto;
+  }
+
+}
 </style>

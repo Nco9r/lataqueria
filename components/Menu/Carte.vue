@@ -337,7 +337,7 @@
   
 
     <div class="price">
-      <p>Tous nos prix sont affcihés en euros et TTC.</p>
+      <p>Tous nos prix sont affichés en euros et TTC.</p>
       <p>
         L'abus d'alcool est dangereux pour la santé. À consommer avec
         modération.

@@ -13,16 +13,16 @@
       <div class="item_footer">
         <div class="item">
           <h3>Sitemap</h3>
-          <p>Accueil</p>
-          <p>Menu</p>
-          <p>Boutique</p>
-          <p>Contact</p>
+          <nuxt-link to="/"><p>Accueil</p></nuxt-link>
+          <nuxt-link to="/menu"><p>Menu</p></nuxt-link>
+          <nuxt-link to="/boutique"><p>Boutique</p></nuxt-link>
+          <nuxt-link to="/contact"><p>Contact</p></nuxt-link>
         </div>
         <div class="item">
           <h3>Legales</h3>
-          <p>Politique de confidentialités</p>
-          <p>Mentions Légales</p>
-          <p>Cookies</p>
+          <nuxt-link to="/mentions-legales"><p>Politique de confidentialités</p></nuxt-link>
+          <nuxt-link to="/mentions-legales"><p>Mentions Légales</p></nuxt-link>
+          <nuxt-link to="/mentions-legales"><p>Cookies</p></nuxt-link>
         </div>
          <div class="item">
           <h3>Sociaux</h3>
@@ -53,6 +53,10 @@ footer {
   display: flex;
   flex-flow: column;
   overflow: hidden;
+}
+
+a {
+  text-decoration: none;
 }
 
 

@@ -204,8 +204,8 @@ export default {}
 
 @media screen and (min-width: 1600px) {
 .hero {
-  max-width: 1600px;
-  margin: 160px auto;
+  max-width: 1550px;
+  margin: 180px auto 40px auto;
 }
 
 }
